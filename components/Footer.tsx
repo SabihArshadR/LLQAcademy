@@ -45,7 +45,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  WhatsApp: +92 326 5566969
+                  WhatsApp: +92 333 4549697
                 </a>
               </li>
               <li>Zoom · Skype · Google Meet</li>

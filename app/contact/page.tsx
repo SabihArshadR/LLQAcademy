@@ -29,7 +29,7 @@ export default function ContactPage() {
             <div className="flex items-center gap-3">
               <StarMotif className="h-5 w-5 shrink-0" tone="green" />
               <span className="font-body text-sm text-ink">
-                WhatsApp: <span className="font-semibold">+92 326 5566969</span>
+                WhatsApp: <span className="font-semibold">+92 333 4549697</span>
               </span>
             </div>
             <div className="flex items-center gap-3">
