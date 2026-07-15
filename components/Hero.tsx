@@ -1,4 +1,5 @@
 import Button from "./Button";
+import HeroQuote from "./HeroQuote";
 import StarMotif from "./StarMotif";
 import { whatsappLink } from "@/lib/data";
 
@@ -18,11 +19,14 @@ export default function Hero() {
             Learn Quran Online With Certified Female Teachers
           </h1>
           <p className="mt-5 max-w-lg font-body text-base leading-relaxed text-ink-soft md:text-lg">
-            One-on-one classes, flexible timings across every time zone, and
+            {/* One-on-one classes, group classes, flexible timings across every time zone, and
             three free trial sessions before you spend a single dollar — for
-            kids and adults alike.
+            kids and adults alike. */}
+            Experience personalized one-on-one or interactive group classes 
+            with certified female teachers. We offer flexible schedules for
+           students worldwide and 3 free trial classes before you enroll.
           </p>
-
+          <HeroQuote/>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button
               href={whatsappLink("Assalamu Alaikum! I'd like to start a free trial class.")}
