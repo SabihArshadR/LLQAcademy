@@ -40,7 +40,7 @@ export default function Navbar() {
           ))}
         </nav>
 
-        <div className="hidden md:block">
+        <div className="hidden md:block ">
           <Button
             href={whatsappLink("Assalamu Alaikum! I'd like to book a free trial class.")}
             external
