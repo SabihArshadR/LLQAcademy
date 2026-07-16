@@ -63,7 +63,7 @@ export default function HeroQuote() {
 
         <p
           dir="rtl"
-          className="text-center text-lg text-gray-700"
+          className="text-center text-lg text-gray-700 font-urdu"
         >
           {quote.urdu}
         </p>

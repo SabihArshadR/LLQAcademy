@@ -246,3 +246,102 @@ export const blogPosts: BlogPost[] = [
     category: "Parenting",
   },
 ];
+
+export type Teacher = {
+  id: string;
+  name: string;
+  title?: string;
+  expertise: string;
+  certifications: string[];
+  experience: string;
+  hasDetails: boolean;
+};
+
+export const teachers: Teacher[] = [
+  {
+    id: "sadia-arshad",
+    name: "Sadia Arshad",
+    title: "Head of LLQ Academy",
+    expertise: "Expert in Tafsir ul Quran & Tajweed",
+    certifications: [
+      "Certified in Quran Courses (Tajweed and Tafsir, Tafheem and Tadabur) – AlHuda International",
+      "Certified in Hadith Studies – AlHuda International",
+      "Master in Al-Qaida An-Nooraniyyah",
+      "Completed Arabic Grammar under Ustadh Aamir Sohail",
+      "Completed Fiqh ut Taharah under Shaykh Abu Bakr Mukhtar",
+    ],
+    experience: "10+ Years of Experience Teaching Women and Children. Experienced in Teaching Quran with Tajweed in English. Experienced in Educational Leadership & Academy Management.",
+    hasDetails: true,
+  },
+  {
+    id: "humaira-hameed",
+    name: "Humaira Hameed",
+    expertise: "Expert in Tafsir",
+    certifications: [
+      "Certified in Quran Courses (Tajweed, Tafsir & tafheem) – AlHuda International",
+      "Certified in Hadith Studies – Alhuda International",
+      "Teacher training in Fiqh ut Taharah – AlHuda International",
+      "Arabic Grammar under Ustadh Aamir Sohail",
+      "Tatbeeq courses from Quran college",
+    ],
+    experience: "6+ Years of Experience Teaching Women and Children.",
+    hasDetails: true,
+  },
+  {
+    id: "sumbla-ahmed",
+    name: "Sumbla Ahmed",
+    expertise: "Expert in Qaida Nooraniya",
+    certifications: [
+      "Certified in Quran Courses (Tajweed and Tafsir) – AlHuda International",
+      "Certified in Al-Qaida An-Nooraniyyah – AlHuda International",
+      "Arabic Grammar course under Aamir Sohail",
+    ],
+    experience: "Almost 12+ Years of Experience Teaching Women and Children.",
+    hasDetails: true,
+  },
+  {
+    id: "ayesha-fahad",
+    name: "Ayesha Fahad",
+    expertise: "Expert Tajweed Instructor",
+    certifications: [
+      "Certified in Tajweed – Quran College, Al Huda & LLQ Academy",
+      "Certified in Selected Surah Tafseer – Quran College",
+      "Completed Seerah-tun-Nabi course from Understand Quran Saudi Arabia",
+      "Expert in Management",
+    ],
+    experience: "",
+    hasDetails: true,
+  },
+  {
+    id: "rija-ishtiaq",
+    name: "Rija Ishtiaq",
+    expertise: "Expert in Tafsir",
+    certifications: [
+      "Certified in Tajweed Courses – LLQ Academy",
+      "Certified in Aama (Dara e Nizami) – Wifaq Ul Madaris Al Salfiyyah",
+      "BS in Islamic Studies – University of Lahore",
+      "Tafsir Course – LLQ Academy",
+    ],
+    experience: "2+ Years of Experience Teaching Women and Children in Urdu & English.",
+    hasDetails: true,
+  },
+];
+
+export const additionalTeachers = [
+  "Naila Kaleem",
+  "Amna Anees",
+  "Ashna Ishtiaq",
+  "Ayesha Akram",
+  "Fariha Kausar",
+  "Hira Zafar",
+  "Kanwal Mehboob",
+  "Madiha Hafiz",
+  "Mehreen Gulzaar",
+  "Madiha Zia",
+  "Miss Mobeena",
+  "Fatima Murtaza",
+  "Rubina Rizwan",
+  "Sania Halawat",
+  "Saria Tariq",
+  "Shaista Shaukat",
+];

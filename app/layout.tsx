@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Amiri, Work_Sans } from "next/font/google";
+import { Amiri, Work_Sans, Noto_Nastaliq_Urdu } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -20,6 +20,13 @@ const workSans = Work_Sans({
   display: "swap",
 });
 
+export const notoNastaliq = Noto_Nastaliq_Urdu({
+  subsets: ["arabic"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-nastaliq",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "LLQAcademy — Learn Quran Online With Certified Female Teachers",
   description:
@@ -30,7 +37,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${amiri.variable} ${workSans.variable}`}>
+    <html lang="en" className={`${amiri.variable} ${workSans.variable} ${notoNastaliq.variable}`}>
       <body className="flex min-h-screen flex-col bg-bg font-body text-ink">
         <FreeTrialBanner />
         <Navbar />
