@@ -77,7 +77,7 @@ export default function Hero() {
                     <div className="h-9 w-9 rounded-full bg-gold-500/80" />
                     <div>
                       <p className="font-body text-xs font-semibold text-cream-100">
-                        Ustadha Amina
+                        Sadia Arshad
                       </p>
                       <p className="font-body text-[11px] text-cream-100/60">Tajweed Teacher</p>
                     </div>

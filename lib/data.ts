@@ -17,20 +17,20 @@ export const courseTracks = [
     key: "Foundations",
     title: "Foundations",
     description:
-      "Where every student begins — reading, pronunciation, and the rules of Tajweed, built one lesson at a time.",
+      "Master Quranic reading, precise pronunciation, and the rules of Tajweed through a disciplined, step-by-step curriculum.",
       // "Build an unshakable foundation in Quranic reading through a structured curriculum focused on accurate pronunciation, fluent recitation, and the precise application of Tajweed rules—guided step by step by experienced teachers."
   },
   {
     key: "Advanced",
     title: "Advanced Study",
     description:
-      "For students ready to move from reading to understanding — meaning, structure, and the Hadith tradition.",
+      "Advance beyond recitation into the disciplined study of Quranic meaning, linguistic structure, and the authentic Hadith tradition.",
   },
   {
     key: "Kids Special",
     title: "Kids Special",
     description:
-      "Gentle, story-led lessons built for young learners, from first duas to their first surahs.",
+      "A structured Islamic curriculum guiding young learners from their first duas to confident memorization of their first surahs.",
   },
 ] as const;
 
@@ -270,7 +270,7 @@ export const teachers: Teacher[] = [
       "Completed Arabic Grammar under Ustadh Aamir Sohail",
       "Completed Fiqh ut Taharah under Shaykh Abu Bakr Mukhtar",
     ],
-    experience: "10+ Years of Experience Teaching Women and Children. Experienced in Teaching Quran with Tajweed in English. Experienced in Educational Leadership & Academy Management.",
+    experience: "Almost 10+ Years of Experience Teaching Women and Children. Experienced in Teaching Quran with Tajweed in English. Experienced in Educational Leadership & Academy Management.",
     hasDetails: true,
   },
   {
@@ -284,7 +284,7 @@ export const teachers: Teacher[] = [
       "Arabic Grammar under Ustadh Aamir Sohail",
       "Tatbeeq courses from Quran college",
     ],
-    experience: "6+ Years of Experience Teaching Women and Children.",
+    experience: "Almost 6+ Years of Experience Teaching Women and Children.",
     hasDetails: true,
   },
   {
@@ -309,22 +309,22 @@ export const teachers: Teacher[] = [
       "Completed Seerah-tun-Nabi course from Understand Quran Saudi Arabia",
       "Expert in Management",
     ],
-    experience: "",
+    experience: "Almost 7+ years of Experience Teaching Women and Children",
     hasDetails: true,
   },
-  {
-    id: "rija-ishtiaq",
-    name: "Rija Ishtiaq",
-    expertise: "Expert in Tafsir",
-    certifications: [
-      "Certified in Tajweed Courses – LLQ Academy",
-      "Certified in Aama (Dara e Nizami) – Wifaq Ul Madaris Al Salfiyyah",
-      "BS in Islamic Studies – University of Lahore",
-      "Tafsir Course – LLQ Academy",
-    ],
-    experience: "2+ Years of Experience Teaching Women and Children in Urdu & English.",
-    hasDetails: true,
-  },
+  // {
+  //   id: "rija-ishtiaq",
+  //   name: "Rija Ishtiaq",
+  //   expertise: "Expert in Tafsir",
+  //   certifications: [
+  //     "Certified in Tajweed Courses – LLQ Academy",
+  //     "Certified in Aama (Dara e Nizami) – Wifaq Ul Madaris Al Salfiyyah",
+  //     "BS in Islamic Studies – University of Lahore",
+  //     "Tafsir Course – LLQ Academy",
+  //   ],
+  //   experience: "Almost 2+ Years of Experience Teaching Women and Children in Urdu & English.",
+  //   hasDetails: true,
+  // },
 ];
 
 export const additionalTeachers = [
