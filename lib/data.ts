@@ -37,43 +37,53 @@ export const courseTracks = [
 export const courses: Course[] = [
   {
     slug: "noorani-qaida",
-    name: "Noorani Qaida",
+    name: "Noorani Qaida (Urdu)",
     track: "Foundations",
     level: "Level 01",
     summary:
       "The starting point for every reader — Arabic letters, joining rules, and correct sounds from day one.",
     duration: "30 min / session",
-    price: "$25/week",
+    price: "",
   },
-  {
-    slug: "quran-reading-tajweed",
-    name: "Quran Reading with Tajweed",
+   {
+    slug: "qaida-noorania",
+    name: "Qaida Noorania (Arabic)",
     track: "Foundations",
     level: "Level 02",
     summary:
+      "The starting point for every reader — Arabic letters, joining rules, and correct sounds from day one.",
+    duration: "30 min / session",
+    price: "",
+  },
+  {
+    slug: "nazra-quran-tajweed",
+    name: "Nazra Quran with Tajweed",
+    track: "Foundations",
+    level: "Level 03",
+    summary:
       "Fluent, correct recitation of the Quran with the rules of Tajweed applied naturally, not memorized abstractly.",
     duration: "30–45 min / session",
-    price: "$30/week",
+    price: "",
   },
   {
     slug: "tajweed-master-course",
     name: "Tajweed Master Course",
     track: "Foundations",
-    level: "Level 03",
+    level: "Level 04",
     summary:
       "A deep, rule-by-rule study of Tajweed for students who want precision, not just familiarity.",
     duration: "45 min / session",
-    price: "$35/week",
+    price: "",
   },
   {
     slug: "hifz-ul-quran",
     name: "Hifz-ul-Quran",
     track: "Foundations",
-    level: "Level 04",
+    level: "Level 05",
     summary:
       "Structured memorization with daily revision plans, tracked progress, and a teacher who remembers where you left off.",
     duration: "45–60 min / session",
-    price: "$80/week",
+    price: "",
   },
   {
     slug: "fahmul-quran",
@@ -82,7 +92,7 @@ export const courses: Course[] = [
     summary:
       "Understand what you recite — word-by-word meaning built into a habit of daily recitation.",
     duration: "45 min / session",
-    price: "$35/week",
+    price: "",
   },
   {
     slug: "detailed-tafsir",
@@ -91,7 +101,7 @@ export const courses: Course[] = [
     summary:
       "A verse-by-verse study of context, meaning, and scholarly interpretation, guided by qualified teachers.",
     duration: "60 min / session",
-    price: "$40/week",
+    price: "",
   },
   {
     slug: "quran-translation",
@@ -100,7 +110,7 @@ export const courses: Course[] = [
     summary:
       "A structured pass through the full translation, built for students who want the meaning without the density of Tafsir.",
     duration: "45 min / session",
-    price: "$35/week",
+    price: "",
   },
   {
     slug: "100-ahadith",
@@ -109,7 +119,7 @@ export const courses: Course[] = [
     summary:
       "A curated collection of a hundred hadith on daily life, character, and worship — memorized and understood.",
     duration: "30 min / session",
-    price: "$30/week",
+    price: "",
   },
   {
     slug: "islamic-stories",
@@ -118,7 +128,7 @@ export const courses: Course[] = [
     summary:
       "Prophets, companions, and moral lessons told the way children actually listen — as stories, not lectures.",
     duration: "30 min / session",
-    price: "$20/week",
+    price: "",
   },
   {
     slug: "namaz-course",
@@ -127,7 +137,7 @@ export const courses: Course[] = [
     summary:
       "Step-by-step prayer instruction: movements, meaning, and the surahs a child needs to pray with confidence.",
     duration: "30 min / session",
-    price: "$20/week",
+    price: "",
   },
   {
     slug: "sunnah-duas",
@@ -136,8 +146,17 @@ export const courses: Course[] = [
     summary:
       "Everyday duas for waking, eating, travelling, and sleeping — the small habits that build a child's day.",
     duration: "20–30 min / session",
-    price: "$18/week",
+    price: "",
   },
+  {
+    slug: "kids-tajweed-course",
+    name: "Kids Tajweed Course",
+    track: "Kids Special",
+    summary:
+      "Everyday duas for waking, eating, travelling, and sleeping — the small habits that build a child's day.",
+    duration: "20–30 min / session",
+    price: "",
+  }
 ];
 
 export const whyChooseUs = [
