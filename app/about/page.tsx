@@ -14,6 +14,78 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
+
+
+      {/* Hero */}
+      <section className="relative overflow-hidden bg-cream-50">
+        <div className="mx-auto max-w-5xl px-5 py-20 text-center">
+          <p className="font-body text-sm font-semibold uppercase tracking-[0.25em] text-gold-600">
+            About LLQAcademy
+          </p>
+
+          <h1 className="mt-4 font-display text-4xl text-green-950 md:text-5xl">
+            About LLQAcademy
+          </h1>
+
+          <p className="mx-auto mt-6 max-w-3xl font-body text-lg leading-relaxed text-ink-soft">
+            A premier online institution preserving the authentic tradition of
+            Quranic education while embracing innovative teaching methodologies
+            for the digital age.
+          </p>
+        </div>
+      </section>
+
+      {/* Mission & Vision */}
+      <section className="mx-auto max-w-6xl px-5 py-16">
+        <div className="grid gap-8 md:grid-cols-2">
+          <div className="rounded-xl2 border border-green-900/10 bg-surface p-8 shadow-card">
+            <StarMotif className="h-8 w-8" tone="gold" />
+
+            <h2 className="mt-4 font-display text-2xl text-green-950">
+              Our Mission
+            </h2>
+
+            <p className="mt-4 font-body leading-relaxed text-ink-soft">
+              Our mission is to provide authentic, accessible Quranic education
+              that combines traditional Islamic scholarship with modern
+              pedagogical approaches. We aim to nurture a generation deeply
+              connected to the Quran through proper recitation, understanding,
+              and implementation.
+            </p>
+          </div>
+
+          <div className="rounded-xl2 border border-green-900/10 bg-surface p-8 shadow-card">
+            <StarMotif className="h-8 w-8" tone="gold" />
+
+            <h2 className="mt-4 font-display text-2xl text-green-950">
+              Why Choose Us
+            </h2>
+
+            <p className="mt-4 font-body leading-relaxed text-ink-soft">
+              We bridge the gap between classical Islamic education and
+              contemporary learning needs with our unique approach.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Existing Introduction */}
+      <section className="mx-auto max-w-5xl px-5 pb-16">
+        <SectionHeading
+          eyebrow="About LLQAcademy"
+          title="Teachers your family can actually trust"
+        />
+
+        <p className="mx-auto mt-6 max-w-3xl text-center font-body leading-relaxed text-ink-soft">
+          LLQAcademy began with a simple frustration: too many online Quran
+          platforms hire whoever is available, not whoever is qualified. We
+          built a smaller academy on purpose — every teacher is certified,
+          fluent in English, and chosen for how she teaches, not just what she
+          knows.
+        </p>
+      </section>
+
+      {/* Everything below remains exactly the same */}
       <section className="mx-auto max-w-4xl px-5 pt-14 pb-4 text-center md:pt-20">
         <p className="font-body text-xs font-semibold uppercase tracking-[0.2em] text-gold-600">
           About LLQAcademy

@@ -21,7 +21,7 @@ export default function CoursesPage() {
           Every course, one clear price
         </h1>
         <p className="mx-auto mt-4 max-w-xl font-body text-base leading-relaxed text-ink-soft">
-          Weekly pricing in USD, one-on-one sessions, and a teacher who stays
+          Fair fee structure for all students from all over the world, one-on-one sessions, and a teacher who stays
           with your child from their first letter to their last surah.
         </p>
       </section>
@@ -44,9 +44,18 @@ export default function CoursesPage() {
               .map((course) => (
                 <div
                   key={course.slug}
-                  className="flex flex-col justify-between rounded-xl2 border border-green-900/10 bg-surface p-6 shadow-card"
+                  className="flex flex-col justify-between rounded-xl2 border border-green-900/10 bg-surface p-6 shadow-card overflow-hidden"
                 >
-                  <div>
+                  {course.image && (
+                    <div className="relative h-60 w-full overflow-hidden">
+                      <img
+                        src={course.image}
+                        alt={course.name}
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                  )}
+                  <div className="p-6">
                     <div className="flex items-start justify-between gap-3">
                       <h3 className="font-display text-lg text-green-950">{course.name}</h3>
                       {course.level && (

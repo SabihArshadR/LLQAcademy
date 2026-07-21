@@ -51,8 +51,7 @@ export default function Post() {
 
           <h2 className="pt-3 font-display text-xl text-green-950">2. Rushing the Ghunnah</h2>
           <p>
-            The nasal sound on noon and meem with a shaddah needs a full two
-            counts through the nose, not a quick hum. Students who read
+            The nasal sound on noon and meem with a shaddah needs long gunnah through the nose, not a quick hum. Students who read
             silently at home tend to lose this first, since there is no
             teacher to catch it in the moment.
           </p>

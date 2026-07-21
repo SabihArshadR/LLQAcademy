@@ -193,7 +193,7 @@ export const courses: Course[] = [
     track: "Group Courses",
     summary:
       "The gateway to Quranic Arabic — mastering letters, pronunciation, and reading the Arabic script with confidence.",
-    duration: "30 min / session",
+    duration: "",
     price: "",
     image: "/images/g3.jpeg",
   },
@@ -203,7 +203,7 @@ export const courses: Course[] = [
     track: "Group Courses",
     summary:
       "The perfect start for young reciters — mastering Tajweed through engaging lessons and correct pronunciation.",
-    duration: "30 min / session",
+    duration: "",
     price: "",
     image: "/images/g2.jpeg",
   },
@@ -213,7 +213,7 @@ export const courses: Course[] = [
     track: "Group Courses",
     summary:
       "Designed for women — mastering Tajweed with confidence, precision, and authentic guidance.",
-    duration: "30 min / session",
+    duration: "",
     price: "",
     image: "/images/g6.jpeg",
   },
@@ -223,7 +223,7 @@ export const courses: Course[] = [
     track: "Group Courses",
     summary:
       "Building noble character — cultivating honesty, kindness, and Islamic manners in everyday life.",
-    duration: "30 min / session",
+    duration: "",
     price: "",
     image: "/images/g1.jpeg",
   },
@@ -233,7 +233,7 @@ export const courses: Course[] = [
     track: "Group Courses",
     summary:
       "Exploring selected Surahs — uncovering their context, wisdom, and timeless guidance verse by verse.",
-    duration: "30 min / session",
+    duration: "",
     price: "",
     image: "/images/g4.jpeg",
   },
@@ -243,7 +243,7 @@ export const courses: Course[] = [
     track: "Group Courses",
     summary:
       "Memorizing selected Surahs — building a lasting connection with the Quran through guided Hifz.",
-    duration: "30 min / session",
+    duration: "",
     price: "",
     image: "/images/g5.jpeg",
   },
@@ -253,7 +253,7 @@ export const courses: Course[] = [
     track: "Whatsapp",
     summary:
       "Unlocking the Quran's wisdom — exploring every verse through authentic Tafsir and scholarly guidance.",
-    duration: "30 min / session",
+    duration: "",
     price: "",
     image: "/images/w1.jpeg",
   },
@@ -263,7 +263,7 @@ export const courses: Course[] = [
     track: "Whatsapp",
     summary:
       "Following the best example — exploring the life, character, and legacy of the Prophet.",
-    duration: "30 min / session",
+    duration: "",
     price: "",
     image: "/images/w2.jpeg",
   },
@@ -273,7 +273,7 @@ export const courses: Course[] = [
     track: "Whatsapp",
     summary:
       "Designed for sisters — mastering Tajweed with confidence, precision, and authentic guidance.",
-    duration: "30 min / session",
+    duration: "",
     price: "",
     image: "/images/w4.jpeg",
   },
@@ -283,7 +283,7 @@ export const courses: Course[] = [
     track: "Whatsapp",
     summary:
       "Nurturing faith and character — building strong Islamic values through practical everyday guidance.",
-    duration: "30 min / session",
+    duration: "",
     price: "",
     image: "/images/w3.jpeg",
   },
