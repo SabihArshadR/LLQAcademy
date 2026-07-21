@@ -5,6 +5,8 @@ import { useState } from "react";
 import StarMotif from "./StarMotif";
 import Button from "./Button";
 import { whatsappLink } from "@/lib/data";
+import Image from "next/image";
+import Logo from "@/public/images/logonew.png"
 
 const links = [
   { href: "/", label: "Home" },
@@ -20,12 +22,13 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-green-900/10 bg-bg/90 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-2">
         <Link href="/" className="focus-ring flex items-center gap-2.5">
-          <StarMotif className="h-7 w-7" tone="green" />
-          <span className="font-display text-xl text-green-950">
+          {/* <StarMotif className="h-7 w-7" tone="green" /> */}
+          <Image src={Logo} alt="LLQ Academy" className="w-[200px] h-[50px] object-cover" />
+          {/* <span className="font-display text-xl text-green-950">
             LLQ<span className="text-gold-600">Academy</span>
-          </span>
+          </span> */}
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

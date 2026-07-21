@@ -19,35 +19,35 @@ export const courseTracks = [
     title: "Foundations",
     description:
       "Master Quranic reading, accurate pronunciation, and the rules of Tajweed through a structured, step-by-step curriculum",
-    images: ["/images/21.jpeg", "/images/20.jpeg", "/images/19.jpeg", "/images/22.jpeg", "/images/23.jpeg"],
+    images: ["/images/f2.jpeg", "/images/f1.jpeg", "/images/f3.jpeg", "/images/f4.jpeg", "/images/f5.jpeg"],
   },
   {
     key: "Advanced",
     title: "Advanced Study",
     description:
       "Advance beyond recitation through in-depth study of the Quran, authentic Hadith, Tafsir, and essential Islamic sciences",
-    images: ["/images/1.jpeg", "/images/2.jpeg", "/images/3.jpeg", "/images/4.jpeg"],
+    images: ["/images/a3.jpeg", "/images/a2.jpeg", "/images/a1.jpeg", "/images/a4.jpeg"],
   },
   {
     key: "Kids Special",
     title: "Kids Special",
     description:
       "Inspire young learners through engaging lessons that build Quranic skills, Islamic character, and a lifelong love for Islam",
-    images: ["/images/6.jpeg", "/images/8.jpeg", "/images/7.jpeg", "/images/5.jpeg"],
+    images: ["/images/k4.jpeg", "/images/k3.jpeg", "/images/k2.jpeg", "/images/k1.jpeg"],
   },
   {
     key: "Group Courses",
     title: "Group Courses",
     description:
       "Learn alongside fellow students through interactive group classes that foster consistency, confidence, and shared progress",
-    images: ["/images/9.jpeg", "/images/10.jpeg", "/images/11.jpeg", "/images/12.jpeg", "/images/13.jpeg", "/images/14.jpeg"],
+    images: ["/images/g3.jpeg", "/images/g2.jpeg", "/images/g6.jpeg", "/images/g1.jpeg", "/images/g4.jpeg", "/images/g5.jpeg"],
   },
    {
     key: "Whatsapp",
     title: "WhatApp Free Courses",
     description:
       "Learn anytime, anywhere through free WhatsApp lessons designed to strengthen your Quranic knowledge and daily practice",
-    images: ["/images/15.jpeg", "/images/18.jpeg", "/images/16.jpeg", "/images/17.jpeg"],
+    images: ["/images/w1.jpeg", "/images/w2.jpeg", "/images/w4.jpeg", "/images/w3.jpeg"],
   },
 ] as const;
 
@@ -61,7 +61,7 @@ export const courses: Course[] = [
       "The starting point for every reader — Arabic letters, joining rules, and correct sounds from day one.",
     duration: "30 min / session",
     price: "",
-    image: "/images/21.jpeg",
+    image: "/images/f2.jpeg",
   },
    {
     slug: "qaida-noorania",
@@ -72,7 +72,7 @@ export const courses: Course[] = [
       "The gateway to Quranic Arabic — mastering letters, pronunciation, and reading the Arabic script with confidence.",
     duration: "30 min / session",
     price: "",
-    image: "/images/20.jpeg",
+    image: "/images/f1.jpeg",
   },
   {
     slug: "nazra-quran-tajweed",
@@ -81,9 +81,9 @@ export const courses: Course[] = [
     level: "Level 03",
     summary:
       "From reading to reciting — perfecting fluency, Tajweed, and every verse with precision.",
-    duration: "30–45 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/19.jpeg",
+    image: "/images/f3.jpeg",
   },
   {
     slug: "tajweed-master-course",
@@ -92,9 +92,9 @@ export const courses: Course[] = [
     level: "Level 04",
     summary:
       "Beyond recitation — mastering the rules, precision, and beauty of authentic Tajweed.",
-    duration: "45 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/22.jpeg",
+    image: "/images/f4.jpeg",
   },
   {
     slug: "hifz-ul-quran",
@@ -103,9 +103,9 @@ export const courses: Course[] = [
     level: "Level 05",
     summary:
       "A journey of memorization — preserving the Quran with accuracy, consistency, and confidence.",
-    duration: "45–60 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/23.jpeg",
+    image: "/images/f5.jpeg",
   },
   {
     slug: "fahmul-quran",
@@ -113,9 +113,9 @@ export const courses: Course[] = [
     track: "Advanced",
     summary:
       "Beyond recitation — understanding the meanings, message, and guidance of the Quran.",
-    duration: "45 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/1.jpeg",
+    image: "/images/a3.jpeg",
   },
   {
     slug: "detailed-tafsir",
@@ -123,9 +123,9 @@ export const courses: Course[] = [
     track: "Advanced",
     summary:
       "Beyond the words — exploring the context, wisdom, and deeper meanings of every verse.",
-    duration: "60 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/2.jpeg",
+    image: "/images/a2.jpeg",
   },
   {
     slug: "quran-translation",
@@ -133,9 +133,9 @@ export const courses: Course[] = [
     track: "Advanced",
     summary:
       "Bringing every verse to life — understanding the Quran through clear and authentic translation.",
-    duration: "45 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/3.jpeg",
+    image: "/images/a1.jpeg",
   },
   {
     slug: "100-ahadith",
@@ -145,7 +145,7 @@ export const courses: Course[] = [
       "A collection of timeless guidance — learning 100 authentic Ahadith with meaning and practical lessons.",
     duration: "30 min / session",
     price: "",
-    image: "/images/4.jpeg",
+    image: "/images/a4.jpeg",
   },
   {
     slug: "islamic-stories",
@@ -155,7 +155,7 @@ export const courses: Course[] = [
       "Where faith comes to life — inspiring hearts through timeless stories of the Prophets and righteous people.",
     duration: "30 min / session",
     price: "",
-    image: "/images/6.jpeg",
+    image: "/images/k4.jpeg",
   },
   {
     slug: "namaz-course",
@@ -165,7 +165,7 @@ export const courses: Course[] = [
       "The foundation of every believer — learning Salah with accuracy, confidence, and devotion.",
     duration: "30 min / session",
     price: "",
-    image: "/images/8.jpeg",
+    image: "/images/k3.jpeg",
   },
   {
     slug: "sunnah-duas",
@@ -175,7 +175,7 @@ export const courses: Course[] = [
       "The words of everyday worship — learning authentic Sunnah Duas for every moment of life.",
     duration: "20–30 min / session",
     price: "",
-    image: "/images/7.jpeg",
+    image: "/images/k2.jpeg",
   },
   {
     slug: "kids-tajweed-course",
@@ -183,9 +183,9 @@ export const courses: Course[] = [
     track: "Kids Special",
     summary:
       "Building young reciters — learning Tajweed through engaging lessons, clear guidance, and confident practice.",
-    duration: "20–30 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/5.jpeg",
+    image: "/images/k1.jpeg",
   },
   {
     slug: "qaida-nooraniya",
@@ -193,9 +193,9 @@ export const courses: Course[] = [
     track: "Group Courses",
     summary:
       "The gateway to Quranic Arabic — mastering letters, pronunciation, and reading the Arabic script with confidence.",
-    duration: "20–30 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/6.jpeg",
+    image: "/images/g3.jpeg",
   },
   {
     slug: "kids-tajweed-course",
@@ -203,9 +203,9 @@ export const courses: Course[] = [
     track: "Group Courses",
     summary:
       "The perfect start for young reciters — mastering Tajweed through engaging lessons and correct pronunciation.",
-    duration: "20–30 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/7.jpeg",
+    image: "/images/g2.jpeg",
   },
   {
     slug: "ladies-tajweed-course",
@@ -213,9 +213,9 @@ export const courses: Course[] = [
     track: "Group Courses",
     summary:
       "Designed for women — mastering Tajweed with confidence, precision, and authentic guidance.",
-    duration: "20–30 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/8.jpeg",
+    image: "/images/g6.jpeg",
   },
   {
     slug: "husne-ikhlaq-series",
@@ -223,9 +223,9 @@ export const courses: Course[] = [
     track: "Group Courses",
     summary:
       "Building noble character — cultivating honesty, kindness, and Islamic manners in everyday life.",
-    duration: "20–30 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/1.jpeg",
+    image: "/images/g1.jpeg",
   },
   {
     slug: "selected-surahs-detailed-tafseer",
@@ -233,9 +233,9 @@ export const courses: Course[] = [
     track: "Group Courses",
     summary:
       "Exploring selected Surahs — uncovering their context, wisdom, and timeless guidance verse by verse.",
-    duration: "20–30 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/2.jpeg",
+    image: "/images/g4.jpeg",
   },
   {
     slug: "selected-surahs-hifz-course",
@@ -243,9 +243,9 @@ export const courses: Course[] = [
     track: "Group Courses",
     summary:
       "Memorizing selected Surahs — building a lasting connection with the Quran through guided Hifz.",
-    duration: "20–30 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/3.jpeg",
+    image: "/images/g5.jpeg",
   },
   {
     slug: "tafsir-ul-quran",
@@ -253,9 +253,9 @@ export const courses: Course[] = [
     track: "Whatsapp",
     summary:
       "Unlocking the Quran's wisdom — exploring every verse through authentic Tafsir and scholarly guidance.",
-    duration: "20–30 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/15.jpeg",
+    image: "/images/w1.jpeg",
   },
   {
     slug: "seerat-un-nabi",
@@ -263,9 +263,9 @@ export const courses: Course[] = [
     track: "Whatsapp",
     summary:
       "Following the best example — exploring the life, character, and legacy of the Prophet.",
-    duration: "20–30 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/18.jpeg",
+    image: "/images/w2.jpeg",
   },
   {
     slug: "tajweed-course",
@@ -273,9 +273,9 @@ export const courses: Course[] = [
     track: "Whatsapp",
     summary:
       "Designed for sisters — mastering Tajweed with confidence, precision, and authentic guidance.",
-    duration: "20–30 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/16.jpeg",
+    image: "/images/w4.jpeg",
   },
   {
     slug: "tarbiyah-courses",
@@ -283,9 +283,9 @@ export const courses: Course[] = [
     track: "Whatsapp",
     summary:
       "Nurturing faith and character — building strong Islamic values through practical everyday guidance.",
-    duration: "20–30 min / session",
+    duration: "30 min / session",
     price: "",
-    image: "/images/17.jpeg",
+    image: "/images/w3.jpeg",
   },
 ];
 
@@ -461,19 +461,19 @@ export const teachers: Teacher[] = [
     experience: "Almost 7+ years of Experience Teaching Women and Children",
     hasDetails: true,
   },
-  // {
-  //   id: "rija-ishtiaq",
-  //   name: "Rija Ishtiaq",
-  //   expertise: "Expert in Tafsir",
-  //   certifications: [
-  //     "Certified in Tajweed Courses – LLQ Academy",
-  //     "Certified in Aama (Dara e Nizami) – Wifaq Ul Madaris Al Salfiyyah",
-  //     "BS in Islamic Studies – University of Lahore",
-  //     "Tafsir Course – LLQ Academy",
-  //   ],
-  //   experience: "Almost 2+ Years of Experience Teaching Women and Children in Urdu & English.",
-  //   hasDetails: true,
-  // },
+  {
+    id: "rija-ishtiaq",
+    name: "Rija Ishtiaq",
+    expertise: "Expert in Tafsir",
+    certifications: [
+      "Certified in Tajweed Courses – LLQ Academy",
+      "Certified in Aama (Dara e Nizami) – Wifaq Ul Madaris Al Salfiyyah",
+      "BS in Islamic Studies – University of Lahore",
+      "Tafsir Course – LLQ Academy",
+    ],
+    experience: "",
+    hasDetails: true,
+  },
 ];
 
 export const additionalTeachers = [
@@ -493,4 +493,5 @@ export const additionalTeachers = [
   "Sania Halawat",
   "Saria Tariq",
   "Shaista Shaukat",
+  "Sadia Gulzar",
 ];

@@ -111,7 +111,7 @@ export default function Hero() {
     {/* Main Image */}
     <div className="overflow-hidden rounded-3xl border border-white/70 bg-white p-2 shadow-2xl">
       <Image
-        src="/images/z1.jpeg"
+        src="/images/z1.1.png"
         alt="Online Quran Class"
         width={700}
         height={500}
