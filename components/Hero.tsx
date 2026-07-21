@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Button from "./Button";
 import HeroQuote from "./HeroQuote";
 import StarMotif from "./StarMotif";
@@ -60,7 +61,7 @@ export default function Hero() {
           </dl>
         </div>
 
-        <div className="relative">
+        {/* <div className="relative">
           <div className="lattice-wash relative aspect-[4/5] w-full overflow-hidden rounded-xl2 shadow-soft md:aspect-[3/4]">
             <div className="absolute inset-0 flex items-center justify-center p-8">
               <div className="w-full max-w-xs rounded-xl border border-cream-100/25 bg-green-950/40 p-6 backdrop-blur-sm">
@@ -100,7 +101,88 @@ export default function Hero() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+
+        <div className="relative flex items-center justify-center">
+  {/* Background Glow */}
+  <div className="absolute inset-0 rounded-[32px] bg-gradient-to-br from-green-100 via-cream-50 to-green-50 blur-2xl opacity-70" />
+
+  <div className="relative w-full max-w-[560px]">
+    {/* Main Image */}
+    <div className="overflow-hidden rounded-3xl border border-white/70 bg-white p-2 shadow-2xl">
+      <Image
+        src="/images/z1.jpeg"
+        alt="Online Quran Class"
+        width={700}
+        height={500}
+        priority
+        className="h-auto w-full rounded-2xl object-cover"
+      />
+    </div>
+
+    {/* Top Right */}
+    <div className="absolute -right-10 top-8 hidden w-44 rotate-6 overflow-hidden rounded-2xl border border-white bg-white p-2 shadow-xl lg:block">
+      <Image
+        src="/images/z2.jpeg"
+        alt="Zoom Quran Class"
+        width={300}
+        height={220}
+        className="rounded-xl object-cover"
+      />
+    </div>
+
+    {/* Bottom Left */}
+    <div className="absolute -bottom-8 -left-8 hidden w-40 -rotate-6 overflow-hidden rounded-2xl border border-white bg-white p-2 shadow-xl lg:block">
+      <Image
+        src="/images/z3.jpeg"
+        alt="Student Learning Quran"
+        width={260}
+        height={180}
+        className="rounded-xl object-cover"
+      />
+    </div>
+
+    {/* Bottom Right */}
+    <div className="absolute -bottom-12 right-8 hidden w-36 rotate-3 overflow-hidden rounded-2xl border border-white bg-white p-2 shadow-xl xl:block">
+      <Image
+        src="/images/z4.jpeg"
+        alt="Live Quran Lesson"
+        width={220}
+        height={160}
+        className="rounded-xl object-cover"
+      />
+    </div>
+
+    {/* Floating Badge */}
+    <div className="absolute left-6 top-6 rounded-full border border-green-200 bg-white/95 px-4 py-2 shadow-lg backdrop-blur">
+      <p className="font-display text-sm font-semibold text-green-900">
+        🟢 Live Zoom Class
+      </p>
+    </div>
+
+    {/* Bottom Stats */}
+    <div className="absolute bottom-5 left-1/2 flex -translate-x-1/2 gap-3 rounded-2xl border border-white/80 bg-white/95 px-5 py-3 shadow-xl backdrop-blur">
+      <div className="text-center">
+        <p className="font-display text-lg font-bold text-green-900">1:1</p>
+        <p className="text-xs text-gray-500">Private</p>
+      </div>
+
+      <div className="h-10 w-px bg-gray-200" />
+
+      <div className="text-center">
+        <p className="font-display text-lg font-bold text-green-900">HD</p>
+        <p className="text-xs text-gray-500">Video</p>
+      </div>
+
+      <div className="h-10 w-px bg-gray-200" />
+
+      <div className="text-center">
+        <p className="font-display text-lg font-bold text-green-900">Live</p>
+        <p className="text-xs text-gray-500">Interactive</p>
+      </div>
+    </div>
+  </div>
+</div>
       </div>
     </section>
   );

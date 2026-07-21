@@ -45,9 +45,10 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  WhatsApp: +92 333 4549697
+                  WhatsApp: +92 309 2910019
                 </a>
               </li>
+              <li>Email: llqacademy7@gmail.com</li>
               <li>Zoom · Skype · Google Meet</li>
               <li>Classes available around the clock</li>
             </ul>

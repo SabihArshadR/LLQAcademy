@@ -95,7 +95,7 @@ export default function TeachersSection() {
       </div>
 
       <div className="mt-10 text-center">
-        <Button href="/teachers" variant="primary">
+        <Button href="/about" variant="primary">
           View All Teachers
         </Button>
       </div>
