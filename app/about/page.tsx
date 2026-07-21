@@ -27,7 +27,7 @@ export default function AboutPage() {
             About LLQAcademy
           </h1>
 
-          <p className="mx-auto mt-6 max-w-3xl font-body text-lg leading-relaxed text-ink-soft">
+          <p className="mx-auto mt-6 max-w-3xl font-body text-base leading-relaxed text-ink-soft">
             A premier online institution preserving the authentic tradition of
             Quranic education while embracing innovative teaching methodologies
             for the digital age.
@@ -45,7 +45,7 @@ export default function AboutPage() {
               Our Mission
             </h2>
 
-            <p className="mt-4 font-body leading-relaxed text-ink-soft">
+            <p className="mt-4 font-body leading-relaxed text-ink-soft text-sm">
               Our mission is to provide authentic, accessible Quranic education
               that combines traditional Islamic scholarship with modern
               pedagogical approaches. We aim to nurture a generation deeply
@@ -61,7 +61,7 @@ export default function AboutPage() {
               Why Choose Us
             </h2>
 
-            <p className="mt-4 font-body leading-relaxed text-ink-soft">
+            <p className="mt-4 font-body leading-relaxed text-ink-soft text-sm">
               We bridge the gap between classical Islamic education and
               contemporary learning needs with our unique approach.
             </p>
@@ -70,7 +70,7 @@ export default function AboutPage() {
       </section>
 
       {/* Existing Introduction */}
-      <section className="mx-auto max-w-5xl px-5 pb-16">
+      {/* <section className="mx-auto max-w-5xl px-5 pb-16">
         <SectionHeading
           eyebrow="About LLQAcademy"
           title="Teachers your family can actually trust"
@@ -83,20 +83,20 @@ export default function AboutPage() {
           fluent in English, and chosen for how she teaches, not just what she
           knows.
         </p>
-      </section>
+      </section> */}
 
       {/* Everything below remains exactly the same */}
       <section className="mx-auto max-w-4xl px-5 pt-14 pb-4 text-center md:pt-20">
-        <p className="font-body text-xs font-semibold uppercase tracking-[0.2em] text-gold-600">
+        {/* <p className="font-body text-xs font-semibold uppercase tracking-[0.2em] text-gold-600">
           About LLQAcademy
-        </p>
+        </p> */}
         <h1 className="mx-auto mt-3 max-w-2xl font-display text-4xl text-balance text-green-950 md:text-5xl">
           Teachers your family can actually trust
         </h1>
-        <p className="mx-auto mt-5 max-w-2xl font-body text-base leading-relaxed text-ink-soft md:text-lg">
+        <p className="mx-auto mt-5 max-w-2xl font-body text-base leading-relaxed text-ink-soft md:text-base">
           LLQAcademy began with a simple frustration: too many online Quran
           platforms hire whoever is available, not whoever is qualified. We
-          built a smaller academy on purpose — every teacher is certified,
+          built a smaller academy on purpose — mostly teacher is certified,
           fluent in English, and chosen for how she teaches, not just what she
           knows.
         </p>
@@ -119,7 +119,7 @@ export default function AboutPage() {
             <StarMotif className="h-8 w-8" tone="gold" />
             <h2 className="mt-4 font-display text-2xl text-green-950">Our Students</h2>
             <p className="mt-3 font-body text-sm leading-relaxed text-ink-soft">
-              We teach families across the USA, UK, and Canada, from
+              We teach families all over the world from
               five-year-olds starting Noorani Qaida to adults returning to the
               Quran after years away. Every class is one-on-one, so the pace
               is always set by the student, never the syllabus.

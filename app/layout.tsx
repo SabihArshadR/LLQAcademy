@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FreeTrialBanner from "@/components/FreeTrialBanner";
-import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import FloatingSocialLinks from "@/components/FloatingWhatsApp";
 
 const amiri = Amiri({
   subsets: ["latin"],
@@ -43,7 +43,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
-        <FloatingWhatsApp />
+        <FloatingSocialLinks />
       </body>
     </html>
   );

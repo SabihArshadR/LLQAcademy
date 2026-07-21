@@ -2,6 +2,13 @@ export const whatsappNumber = "923092910019";
 export const whatsappLink = (message: string) =>
   `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
+export const socialLinks = {
+  whatsapp: "https://whatsapp.com/channel/0029VaJK9zgFy72ESabczX2C",
+  youtube: "https://youtube.com/@sadiallqacademy?si=p2QGzur7t5KRLQqD",
+  facebook: "https://www.facebook.com/llqacademyofficial?mibextid=ZbWKwL",
+  instagram: "https://www.instagram.com/llqacademy/profilecard/?igsh=MWE0aGp4d2F0OTc0dg==",
+};
+
 export type Course = {
   slug: string;
   name: string;
@@ -168,8 +175,8 @@ export const courses: Course[] = [
     image: "/images/k3.jpeg",
   },
   {
-    slug: "sunnah-duas",
-    name: "Sunnah Duas",
+    slug: "masnoon-duas",
+    name: "Masnoon Duas",
     track: "Kids Special",
     summary:
       "The words of everyday worship — learning authentic Sunnah Duas for every moment of life.",
