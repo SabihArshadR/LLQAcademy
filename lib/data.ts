@@ -4,7 +4,7 @@ export const whatsappLink = (message: string) =>
 
 export const socialLinks = {
   whatsapp: "https://whatsapp.com/channel/0029VaJK9zgFy72ESabczX2C",
-  youtube: "https://youtube.com/@sadiallqacademy?si=p2QGzur7t5KRLQqD",
+  youtube: "https://youtube.com/@onlinellqacademy?si=PWW0BwhDIuEaB_UD",
   facebook: "https://www.facebook.com/llqacademyofficial?mibextid=ZbWKwL",
   instagram: "https://www.instagram.com/llqacademy/profilecard/?igsh=MWE0aGp4d2F0OTc0dg==",
 };
@@ -311,7 +311,7 @@ export const whyChooseUs = [
   },
   {
     title: "Affordable Fees",
-    description: "Clear, weekly pricing in USD — no hidden charges, no long-term contracts.",
+    description: "Fair fee structure for all students from all over the world — no hidden charges, no long-term contracts.",
   },
   {
     title: "3-Day Free Trial",

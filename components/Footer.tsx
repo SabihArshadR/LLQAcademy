@@ -16,7 +16,7 @@ export default function Footer() {
             </div>
             <p className="mt-4 max-w-sm font-body text-sm leading-relaxed text-cream-100/75">
               One-on-one online Quran classes with certified female teachers,
-              built for students in the USA, UK, and Canada — flexible timings,
+              built for students in all over the world — flexible timings,
               real progress reports, and a free trial before you commit.
             </p>
           </div>
