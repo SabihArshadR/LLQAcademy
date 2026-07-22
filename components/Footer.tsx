@@ -38,14 +38,25 @@ export default function Footer() {
               Talk to Us
             </h3>
             <ul className="mt-4 space-y-2.5 font-body text-sm text-cream-100/80">
-              <li>
+              <li className="space-y-1">
+                <p className="font-medium">WhatsApp</p>
+
                 <a
-                  className="focus-ring hover:text-white"
-                  href={whatsappLink("Assalamu Alaikum! I have a question.")}
+                  href="https://wa.me/923092910019"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="block hover:text-white transition-colors"
                 >
-                  WhatsApp: +92 309 2910019
+                  +92 309 2910019
+                </a>
+
+                <a
+                  href="https://wa.me/923279438744"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block hover:text-white transition-colors"
+                >
+                  +92 327 9438744
                 </a>
               </li>
               <li>Email: llqacademy7@gmail.com</li>

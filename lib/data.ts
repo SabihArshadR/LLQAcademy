@@ -303,7 +303,7 @@ export const whyChooseUs = [
   },
   {
     title: "Certified Female Tutors",
-    description: "Every teacher is qualified, background-checked, and fluent in English.",
+    description: "Every teacher is qualified, background-checked, and Expert in Quran Teaching.",
   },
   {
     title: "Progress Reports",
@@ -339,28 +339,28 @@ export const testimonials = [
       "I am very satisfied with my teacher, Sadia Arshad  for my Quranic lessons.It has helped me a lot in improving my Quran reading with tajweed. I highly recommend her for all those people who want to learn and improve in Quran learning with correct tajweed.She is very knowledgeable and has great patience.",
   },
   {
+    name: "Sonia Shahzad Khan",
+    location: "Spain",
+    quote:
+    "Asslam u alikum Alhamdulillah, choosing LLQ Academy for our son’s Quran education has been one of the best decisions. His teacher ( Madiha Hafeez) is caring, respectful, and very professional. She teaches with patience and makes every lesson easy to understand. Our son enjoys his classes and has made excellent progress. We are truly grateful for her dedication and support. May Allah bless her with the best rewards in this life and the Hereafter. Ameen. We highly recommend LLQ Academy to every family looking for quality online Quran classes. ",
+  },
+  {
+    name: "Saima Mazhar",
+    location: "Iraq",
+    quote:
+    "Assalam o alaikum wrwb I am very satisfied with my teacher (Humaira Hameed). The lessons are clear, well-organized, and easy to understand.Humaira is patient, supportive, and explains everything thoroughly. I have learned a lot and truly appreciate the dedication and effort put into every classMay Allah reward you abundantly. Ameen.",
+  },
+  {
+    name: "Qudsia Mirza",
+    location: "Canada",
+    quote:
+    "Assalam o alaikum  I've had a wonderful experience with LLQ academy. (Ms. Rija Ishtiaq) has been an amazing quran teacher for my daughter. She is very punctual and teaches with care and makes the lessons easy to understand. My daughter enjoys her classes and has made great progress with her quran reading. I truly appreciate Ms. Rija’s hard work and highly recommend LLQ academy to anyone looking for quality quran classes.",
+  },
+  {
     name: "Tayeeba",
     location: "Islamabad, Pakistan",
     quote:
       "Alhamdulillah, my experience with LLQ Academy has been excellent. The teacher ( Humaira Hameed) is patient, kind, and explains everything clearly. I have improved my Quran recitation and learned a lot. May Allah reward the entire team abundantly. Ameen. Jazakum Allahu Khairan. ",
-  },
-   {
-    name: "Noor Ul Zuha",
-    location: "Faisalabad, Pakistan",
-    quote:
-      "My tutor's name is Saria Tariq , and I am learning Tajweed from her. She is a very humble and kind teacher who teaches with great patience. She has an excellent Quranic accent, and her teaching techniques are very effective. I am very satisfied with my teacher and with LLQ Academy.",
-  },
-   {
-    name: "Kanwal Javed",
-    location: "Islamabad, Pakistan",
-    quote:
-      "Assalam o allium . I am nazra student of LLQ ACADEMY.i got admission 5 months ago and  I am fully satisfied with my ma'am Madiha Hafeez .Her method of teaching is great she has complete command on her subject my experience is great with LLQ .it's highly recommended.",
-  },
-  {
-    name: "Komal",
-    location: "Lahore, Pakistan",
-    quote:
-      "Assalamu Alaikum wa Rahmatullahi wa Barakatuh.. Alhamdulillah, my experience with LLQ Academy has been excellent. I am learning Nazra Quran and Tajweed with Teacher Hawra Fatima who is very kind, patient, supportive and explains the lessons very clearly. I truly appreciate her dedication and efforts. The academy management is also very cooperative and always helpful. May Allah reward the entire team for their sincere efforts. Ameen..",
   },
 ];
 

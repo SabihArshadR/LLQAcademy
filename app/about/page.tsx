@@ -96,8 +96,8 @@ export default function AboutPage() {
         <p className="mx-auto mt-5 max-w-2xl font-body text-base leading-relaxed text-ink-soft md:text-base">
           LLQAcademy began with a simple frustration: too many online Quran
           platforms hire whoever is available, not whoever is qualified. We
-          built a smaller academy on purpose — mostly teacher is certified,
-          fluent in English, and chosen for how she teaches, not just what she
+          built a smaller academy on purpose — all teachers are certified,
+          and mostly teachers are fluent in English, and chosen for how she teaches, not just what she
           knows.
         </p>
       </section>
