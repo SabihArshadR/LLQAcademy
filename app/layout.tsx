@@ -31,6 +31,9 @@ export const metadata: Metadata = {
   title: "LLQAcademy — Learn Quran Online With Certified Female Teachers",
   description:
     "One-on-one online Quran classes for kids and adults. Certified female teachers, flexible timings, and a 3-day free trial. Zoom, Skype, and Google Meet.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
